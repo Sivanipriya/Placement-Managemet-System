@@ -37,9 +37,6 @@ The Placement Management System is designed to streamline the recruitment proces
 ### Authentication:
 - Custom PHP-based authentication
 
-### Security:
-- bcrypt for hashing passwords
-
 ## Database Design
 
 ### Normalization:
@@ -95,5 +92,5 @@ The Placement Management System is designed to streamline the recruitment proces
 
 ## Conclusion
 
-This project was developed by me and my team, we designed the system architecture, implemented the database design, and developed the frontend and backend. The Placement Management System provides a comprehensive solution for managing placements and internships, making the process seamless for both students and companies.
+This project was developed by me and my teammate, we designed the system architecture, implemented the database design, and developed the frontend and backend. The Placement Management System provides a comprehensive solution for managing placements and internships, making the process seamless for both students and companies.
 
