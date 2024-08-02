@@ -57,35 +57,57 @@ The Placement Management System is designed to streamline the recruitment proces
 **Index Page - Home 3**
 ![Home 3](Screenshots/home-3.png)
 
-### Authentication Pages
+### Authentication Page
 **Sign Up Page**
 ![Signup](Screenshots/Signup.png)
 
-**Admin Login Page**
+### Admin Pages
+** Login Page**
 ![Admin Login](Screenshots/admin/admin_login.png)
+
+
+### Managing student
+![Admin Login](Screenshots/admin/manage_students.png)
+
+
+### Managing companies
+![Admin Login](Screenshots/admin/manage_companies.png)
+
+### Add Student or Company
+
+![Admin Login](Screenshots/admin/add_student.png)
+![Admin Login](Screenshots/admin/add_company.png)
+
+**Student Login Page**
+
+### Login page
+![Student Login](Screenshots/student/student_login.png)
+
+### Student Dashboard
+
+![Admin Login](Screenshots/student/student_dashboard.png)
+
+### Applications
+
+![Admin Login](Screenshots/student/Student_applications.png)
+
+
+### Job_postings
+
+![Admin Login](Screenshots/student/Company_listing.png)
+
+
+
+### Company Pages
 
 **Company Login Page**
 ![Company Login](Screenshots/company/company_login.png)
 
-**Student Login Page**
-![Student Login](Screenshots/student/student_login.png)
-
-### Company Pages
-**Applications Page**
+**Application List**
 ![Applications Page](Screenshots/company/Applications_list.png)
 
 **Student Details Page**
 ![Student Details](Screenshots/company/Student_details.png)
-
-### Student Pages
-**Student Dashboard**
-![Student Dashboard](Screenshots/student/student_dashboard.png)
-
-**Company Listing**
-![Company Listing](Screenshots/student/Company_listing.png)
-
-**Applied Jobs**
-![Applied Jobs](Screenshots/company/Student_application.png)
 
 ## PL/SQL Blocks Implemented
 
