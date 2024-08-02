@@ -82,7 +82,7 @@ The Placement Management System is designed to streamline the recruitment proces
 ![Admin Login](Screenshots/admin/add_student.png)
 ![Admin Login](Screenshots/admin/add_company.png)
 
-**Student Login Page**
+## Student
 
 ### Login page
 ![Student Login](Screenshots/student/student_login.png)
@@ -102,7 +102,7 @@ The Placement Management System is designed to streamline the recruitment proces
 
 
 
-### Company Pages
+## Company Pages
 
 **Company Login Page**
 ![Company Login](Screenshots/company/company_login.png)
