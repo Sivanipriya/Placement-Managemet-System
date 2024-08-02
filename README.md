@@ -53,7 +53,11 @@ The Placement Management System is designed to streamline the recruitment proces
 ## Screenshots
 
 ### Index Page
-![Index Page](Screenshots/home-1.png)
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/home-1.png" alt="Index Page - Home 1" style="width: 45%;">
+  <img src="Screenshots/home-2.png" alt="Index Page - Home 2" style="width: 45%;">
+  <img src="Screenshots/home-3.png" alt="Index Page - Home 3" style="width: 45%;">
+</div>
 
 ### About Us Page
 ![About Us Page](path/to/about-us-page-screenshot.png)
