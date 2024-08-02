@@ -48,21 +48,25 @@ The Placement Management System is designed to streamline the recruitment proces
 ## Screenshots
 
 ### Home Pages
-**Index Page - Home 1**
+
+**Index Page**
+![Home 1](Screenshots/Login.png)
+
+**Drive Page - 1**
 ![Home 1](Screenshots/home-1.png)
 
-**Index Page - Home 2**
-![Home 2](Screenshots/home-2.png)
+**Drive Page - 2**
+![Home 2](Screenshots/home-3.png)
 
-**Index Page - Home 3**
-![Home 3](Screenshots/home-3.png)
+**Drive Page - 3**
+![Home 3](Screenshots/home-2.png)
 
-### Authentication Page
+
 **Sign Up Page**
 ![Signup](Screenshots/Signup.png)
 
-### Admin Pages
-** Login Page**
+## Admin Pages
+**Login Page**
 ![Admin Login](Screenshots/admin/admin_login.png)
 
 
@@ -89,7 +93,7 @@ The Placement Management System is designed to streamline the recruitment proces
 
 ### Applications
 
-![Admin Login](Screenshots/student/Student_applications.png)
+![Admin Login](Screenshots/student/Student_application.png)
 
 
 ### Job_postings
@@ -102,6 +106,9 @@ The Placement Management System is designed to streamline the recruitment proces
 
 **Company Login Page**
 ![Company Login](Screenshots/company/company_login.png)
+
+**Job posting List**
+![Applications Page](Screenshots/company/job_postings.png)
 
 **Application List**
 ![Applications Page](Screenshots/company/Applications_list.png)
