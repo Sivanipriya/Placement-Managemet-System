@@ -1,4 +1,3 @@
-
 # Placement Management System
 
 The Placement Management System is designed to streamline the recruitment process for both students and companies. This platform helps students to find suitable placement and internship opportunities and enables companies to recruit talented candidates efficiently.
@@ -52,23 +51,35 @@ The Placement Management System is designed to streamline the recruitment proces
 
 ## Screenshots
 
-### Index Page
-![Index Page]("C:\Users\HP\OneDrive\Pictures\student_ally2.png")
+### Home Pages
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/home-1.png" alt="Index Page - Home 1" style="width: 30%;">
+  <img src="Screenshots/home-3.png" alt="Index Page - Home 2" style="width: 30%;">
+  <img src="Screenshots/home-2.png" alt="Index Page - Home 3" style="width: 30%;">
+</div>
 
-### About Us Page
-![About Us Page](path/to/about-us-page-screenshot.png)
+### Authentication Pages
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/Signup.png" alt="Sign Up Page" style="width: 45%;">
+  <img src="Screenshots/admin_login.png" alt="Admin Login Page" style="width: 45%;">
+</div>
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/company_login.png" alt="Company Login Page" style="width: 45%;">
+  <img src="Screenshots/student_login.png" alt="Student Login Page" style="width: 45%;">
+</div>
 
-### Sign In Page
-![Sign In Page](path/to/sign-in-page-screenshot.png)
+### Company Pages
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/Student_applications.png" alt="Applications Page" style="width: 45%;">
+  <img src="Screenshots/Student_details.png" alt="Student Details Page" style="width: 45%;">
+</div>
 
-### Student Sign In Page
-![Student Sign In Page](path/to/student-sign-in-page-screenshot.png)
-
-### Company Sign In Page
-![Company Sign In Page](path/to/company-sign-in-page-screenshot.png)
-
-### User Login Page
-![User Login Page](path/to/user-login-page-screenshot.png)
+### Student Pages
+<div style="display: flex; justify-content: space-around;">
+  <img src="Screenshots/student_dashboard.png" alt="Student Dashboard" style="width: 30%;">
+  <img src="Screenshots/Company_listing.png" alt="Company Listing" style="width: 30%;">
+  <img src="Screenshots/Applications_list.png" alt="Applied Jobs" style="width: 30%;">
+</div>
 
 ## PL/SQL Blocks Implemented
 
@@ -92,5 +103,4 @@ The Placement Management System is designed to streamline the recruitment proces
 
 ## Conclusion
 
-This project was developed by me and my teammate, we designed the system architecture, implemented the database design, and developed the frontend and backend. The Placement Management System provides a comprehensive solution for managing placements and internships, making the process seamless for both students and companies.
-
+This project was developed by me and my teammate. We designed the system architecture, implemented the database design, and developed the frontend and backend. The Placement Management System provides a comprehensive solution for managing placements and internships, making the process seamless for both students and companies.
