@@ -68,7 +68,7 @@ The Placement Management System is designed to streamline the recruitment proces
 ![Applications Page](Screenshots/Student_applications.png_)
 ![Student Details](Screenshots/Student_details.png)
 
-###Student
+### Student
 ![Dashboard](Screenshots/student_dashboard.png)
 ![Company Listing](Screenshots/Company_listing.png)
 ![Applied Jobs](Screenshots/Applications_list.png)
