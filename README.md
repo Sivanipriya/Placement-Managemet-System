@@ -53,7 +53,7 @@ The Placement Management System is designed to streamline the recruitment proces
 ## Screenshots
 
 ### Index Page
-![Index Page]("C:\Users\HP\OneDrive\Pictures\student_ally2.png")
+![Index Page](Screenshots/home-1.png)
 
 ### About Us Page
 ![About Us Page](path/to/about-us-page-screenshot.png)
