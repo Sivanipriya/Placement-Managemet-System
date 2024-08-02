@@ -55,24 +55,25 @@ The Placement Management System is designed to streamline the recruitment proces
 ### Index Page
 <div style="display: flex; justify-content: space-around;">
   <img src="Screenshots/home-1.png" alt="Index Page - Home 1" style="width: 45%;">
-  <img src="Screenshots/home-2.png" alt="Index Page - Home 2" style="width: 45%;">
-  <img src="Screenshots/home-3.png" alt="Index Page - Home 3" style="width: 45%;">
+  <img src="Screenshots/home-3.png" alt="Index Page - Home 2" style="width: 45%;">
+  <img src="Screenshots/home-2.png" alt="Index Page - Home 3" style="width: 45%;">
 </div>
 
-### About Us Page
-![About Us Page](path/to/about-us-page-screenshot.png)
+
 
 ### Sign In Page
-![Sign In Page](path/to/sign-in-page-screenshot.png)
+![Sign In Page](Screenshots/Signup.png)
 
-### Student Sign In Page
-![Student Sign In Page](path/to/student-sign-in-page-screenshot.png)
+### Company 
+![Applications Page](Screenshots/Student_applications.png_)
+![Student Details](Screenshots/Student_details.png)
 
-### Company Sign In Page
-![Company Sign In Page](path/to/company-sign-in-page-screenshot.png)
+###Student
+![Dashboard](Screenshots/student_dashboard.png)
+![Company Listing](Screenshots/Company_listing.png)
+![Applied Jobs](Screenshots/Applications_list.png)
 
-### User Login Page
-![User Login Page](path/to/user-login-page-screenshot.png)
+
 
 ## PL/SQL Blocks Implemented
 
