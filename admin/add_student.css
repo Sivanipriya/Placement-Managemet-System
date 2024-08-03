@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('path/to/your/background-image.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto; /* Allows scrolling if content overflows */
+}
+
+/* Container styling for the form */
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Add transparency to the background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    overflow-y: auto; /* Ensures the form is scrollable if it overflows */
+    max-height: 90vh; /* Limits the maximum height */
+}
+
+/* Styling for the form headings */
+.container h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Styling for form labels */
+.container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    text-align: left;
+}
+
+/* Styling for form inputs */
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="date"],
+.container input[type="number"],
+.container input[type="file"],
+.container input[type="password"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Styling for the submit button */
+.container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #07c8cbe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Hover effect for the button */
+.container input[type="submit"]:hover {
+    background-color: #0c9debe7;
+}

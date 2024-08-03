@@ -1,0 +1,463 @@
+/*
+TABLE OF CONTENT
+	1. Universal Styles
+	2. Left Column
+	3. Right Column
+	4. Charts & Maps
+	5. Login
+	6. Manage Users
+	7. Preferences
+	8. Media Queries
+----------------------------------------------*/
+/* 1. Universal Styles
+----------------------------------------------*/
+.error {color: #FF0000;}
+* {	font-family: 'Open Sans', sans-serif; }
+body {	font-size: 13px; }
+body, .templatemo-left-nav { background: #1f2124; }
+h1, h2, h3 { margin: 0; }
+h2 { font-size: 1.6em; }
+h3 {
+	color: #7f7f7f;
+	font-size: 1.4em;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover { text-decoration: none; }
+nav li {
+	font-size: 1.1em;
+	list-style: none;	
+	text-transform: uppercase;
+}
+.templatemo-inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+.templatemo-block {	display: block; }
+.templatemo-position-relative {	position: relative; }
+.blue-text { color: #39ADB4; }
+.white-text { color: white; }
+.green-bg {	background-color: #39ADB4; }
+.yellow-bg { background-color: #D8D138; }
+.white-bg {	background-color: white; }
+.white-bg .fa-times { background-color: #d7d7d7; }
+.white-bg .fa-times:hover {	background: #83ccd1; }
+.orange-bg {
+	background-color: #F17A54;
+	color: white;
+}
+.orange-bg .fa-times {	background-color: #F0A790; }
+.orange-bg .fa-times:hover { background-color: #E14311; }
+.pink-bg {
+	background-color: #D7425C;
+	color: white;
+}
+.pink-bg .fa-times { background-color: #E57C8F;	}
+.pink-bg .fa-times:hover { background-color: #BD1F3B; }
+.blue-bg {
+	background-color: #3275BB;
+	color: white;
+}
+.blue-bg .fa-times { background-color: #6792C0; }
+.blue-bg .fa-times:hover { background-color: #040d16; }
+.light-gray-bg {
+	font-family:"Trebuchet MS", "Myriad Pro", Arial, sans-serif;
+	font-size:14px;
+	background:#f4f4f4 url(images/bicycle.jpg) repeat top left;
+	background-image: url(images/pexels-vlada-karpovich-4050315.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color:#333;
+	overflow-y:scroll;
+}
+.padding-right-25 {	padding-right: 25px; }
+.margin-bottom-0 {	margin-bottom: 0; }
+.margin-bottom-5 {	margin-bottom: 5px; }
+.margin-bottom-10 {	margin-bottom: 10px; }
+.margin-bottom-30 {	margin-bottom: 30px; }
+.margin-bottom-70 {	margin-bottom: 70px; }
+.margin-right-15 { margin-right: 15px; }
+.margin-10 { margin: 10px; }
+.width-100 { width: 100%; }
+.no-border { border: none; }
+.border-radius-10 { border-radius: 10px; }
+footer { padding: 15px; }
+
+/* 2. Left Column
+-----------------------------*/
+.templatemo-sidebar { width: 300px; }
+
+.templatemo-left-nav {
+    position: fixed; /* Fixed position to keep it in place while scrolling */
+    top: 0; /* Align to the top of the page */
+    bottom: 0; /* Stretch to the bottom of the page */
+    width: 300px; /* Same width as the sidebar */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+    background-color: #1f2124; /* Ensure it has a background color */
+    z-index: 999; /* Make sure it's on top of other elements */
+    padding-top: 50px; /* Optional: Add padding at the top if needed */
+}
+
+.circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+.templatemo-site-header { margin: 25px 30px; }
+.templatemo-site-header h1 {
+	color: white;
+	display: inline-block;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	margin: 0 5px;	
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.profile-photo-container { position: relative; }
+.profile-photo-overlay {
+	background-color: rgba(4, 152, 114, 0.35);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.profile-photo-overlay:hover { background-color: rgba(4, 152, 114, 0); }
+
+/* Search form */
+.templatemo-search-form {
+	font-size: 1.1em;
+	margin: 50px 20px;		
+}
+.templatemo-search-form .input-group { width: 100%; }
+.templatemo-search-form .input-group .form-control {
+	background-color: #18191b;
+	border: none;
+	border-radius: 10px;
+	color: #DDD;
+	padding-left: 30px;
+}
+.form-control:focus {
+  border-color: #13895F;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(19,137,95,.075),0 0 8px rgba(19,137,95,.6);
+}
+.form-control.highlight {
+	background-color: #39ADB4;
+	color: white;
+}
+.form-control.highlight::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ccc;
+}
+.form-control.highlight:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ccc;
+   opacity:  1;
+}
+.form-control.highlight::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ccc;
+   opacity:  1;
+}
+.form-control.highlight:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #ccc;
+}
+.templatemo-search-form .input-group { position: relative; }
+.fa-search {
+    height:32px;
+    width:32px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    background:transparent;
+    position:absolute;
+    top: 0;
+	left: 0;
+	z-index: 100;
+}
+.mobile-menu-icon { 
+	cursor:pointer;
+	display:none; 
+}
+.templatemo-left-nav li { font-weight: 300; }
+.templatemo-left-nav a.active,
+.templatemo-left-nav a:hover {
+	background: #18191b;
+	border-left: 8px solid #13895F;
+}
+.templatemo-left-nav a {
+	color: #e9e9ea;
+	display: block;
+	padding: 30px;
+	transition: all 0.3s ease;
+}
+.templatemo-left-nav .fa { margin-right: 15px; }
+
+/* 3. Right Column
+------------------------------*/
+.templatemo-top-nav-container {
+	background-color: white;
+	padding: 28px 50px;
+ 	box-shadow: 0px 0px 2px 2px rgba(161, 159, 159, 0.18);
+}
+.templatemo-top-nav li {
+    float: left;
+    list-style: none;
+}
+.templatemo-top-nav a {
+	color: #7f7f7f;
+    display: block;
+    padding: 0 50px;
+    border-left: 2px solid #c5c5c5;
+}
+.templatemo-top-nav li:last-child a { border-right: 2px solid #c5c5c5; }
+.templatemo-top-nav a:hover,
+.templatemo-top-nav a.active {
+	color: #39ADB4;
+}
+
+/* Main Content Area */
+.templatemo-content {
+  margin-top: 0px;
+  min-height: 600px;
+  padding: 0;  
+  overflow-x: hidden;
+}
+.templatemo-content-container {
+    padding: 40px 50px;
+    margin-left: 300px; /* Same width as the sidebar to avoid overlap */
+}
+.templatemo-flex-row {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.col-1 {
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.col-2 {
+	-webkit-flex: 2;
+	    -ms-flex: 2;
+	        flex: 2;
+}
+
+/* Content Widget */
+.templatemo-content-widget {
+	border-radius: 10px;
+	padding: 30px;	
+	position: relative;
+	margin: 10px;
+ 	box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.1);
+}
+.templatemo-content-widget.no-padding {	padding: 0; }
+.fa-times {
+	border-radius: 15px;
+  	color: white;
+  	cursor: pointer;
+	padding: 4px 5px;
+  	position: absolute;
+  	top: -10px;
+  	right: -10px;
+	width: 30px;
+}
+.templatemo-content-widget h2 { margin-bottom: 20px; }
+.templatemo-content-widget.blue-bg { background-color: #39ADB4; }
+.templatemo-content-widget.orange-bg { background-color: #F17A54; }
+.templatemo-content-widget.green-bg { background-color: #83ccd1; }
+.templatemo-content-widget.pink-bg { background-color: #E57C8F; }
+.templatemo-content-widget.yellow-bg { background-color: #FEEADA; }
+
+/* User Profile */
+#profile-tab { border: none; }
+#profile-tab .nav.nav-tabs { margin-bottom: 40px; }
+#profile-tab .nav.nav-tabs a {
+	border-radius: 0px;
+	color: #ccc;
+}
+#profile-tab .nav.nav-tabs a.active {
+	background: none;
+	border-bottom: 2px solid #13895F;
+	color: #39ADB4;
+}
+.tab-content { margin-top: 40px; }
+
+/* Notes */
+.notes {
+	background: none;
+	border: 1px solid #ddd;
+	box-shadow: none;
+	min-height: 160px;
+}
+.notes .fa-pencil { color: #bbb; }
+.notes p { margin-bottom: 0; }
+
+/* 4. Charts & Maps
+------------------------------*/
+.canvas-wrapper {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+canvas { width: 100%; }
+.google-map {
+	width: 100%;
+	height: 300px;
+}
+
+/* 5. Login
+------------------------------*/
+#logo {
+	background-color: #1f2124;
+	height: 200px;
+}
+#logo h1 {
+	color: white;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	padding: 65px 0 0 20px;	
+	text-transform: uppercase;
+}
+.templatemo-login-form {
+	margin: 40px auto 0 auto;
+	max-width: 450px;
+}
+.templatemo-login-form label { color: #7f7f7f; }
+.templatemo-login-form .form-control {
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #c4c4c4;
+	box-shadow: none;
+}
+.templatemo-login-form .form-control:focus {
+	box-shadow: none;
+	border-color: #13895F;
+}
+.templatemo-login-form .input-group-addon {
+	background-color: white;
+	border: none;
+	color: #bbb;
+	border-radius: 0px;
+}
+.templatemo-login-form button {
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.templatemo-login-form .link {
+	margin-top: 20px;
+	text-align: center;
+	display: block;
+}
+.templatemo-login-form .link a { color: #39ADB4; }
+
+/* 6. Manage Users
+------------------------------*/
+.templatemo-user-img {
+	background-color: #1f2124;
+	border-radius: 50%;
+	float: left;
+	height: 50px;
+	margin-right: 15px;
+	width: 50px;
+}
+.templatemo-user-description { padding: 5px; }
+.templatemo-user-link { padding: 7px 20px; }
+.templatemo-user-link.blue-bg:hover { background: #0d7b82; }
+.templatemo-user-link.orange-bg:hover { background: #d6613b; }
+.templatemo-user-link.pink-bg:hover { background: #c53e54; }
+.templatemo-user-link.blue-bg:hover { background: #235b97; }
+
+/* 7. Preferences
+------------------------------*/
+#preferences-tab { border: none; }
+#preferences-tab .nav.nav-tabs { margin-bottom: 40px; }
+#preferences-tab .nav.nav-tabs a {
+	border-radius: 0px;
+	color: #ccc;
+}
+#preferences-tab .nav.nav-tabs a.active {
+	background: none;
+	border-bottom: 2px solid #13895F;
+	color: #39ADB4;
+}
+.templatemo-preferences-form {
+	background: white;
+	border-radius: 10px;
+	padding: 30px 30px;
+ 	box-shadow: 0px 0px 1px 1px rgba(161, 159, 159, 0.1);
+}
+.templatemo-preferences-form h3 { margin-bottom: 30px; }
+.templatemo-preferences-form .form-control {
+	border: none;
+	border-radius: 0px;
+	border-bottom: 1px solid #c4c4c4;
+	box-shadow: none;
+}
+.templatemo-preferences-form .form-control:focus {
+	box-shadow: none;
+	border-color: #13895F;
+}
+.templatemo-preferences-form .radio input {
+	margin-top: -2px;
+}
+.templatemo-preferences-form .fa-times {
+	background-color: #d7d7d7;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.templatemo-preferences-form .fa-times:hover { background: #83ccd1; }
+.templatemo-preferences-form button {
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+/* 8. Media Queries
+------------------------------*/
+@media (max-width: 991px) {	
+	.templatemo-top-nav a { padding: 0 30px; }
+}
+@media (max-width: 767px) {	
+	.templatemo-content { padding: 50px 15px; }
+	.templatemo-left-nav { display: none; }
+	.templatemo-sidebar { display: none; }
+	.templatemo-mobile-menu {
+		background: #1f2124;
+		color: white;
+		display: block;
+		width: 100%;
+	}
+	.mobile-menu-icon {
+		color: white;
+		display: block;
+		float: right;
+		font-size: 2.3em;
+		margin: 25px;
+	}
+	#logo h1 {
+		color: white;
+		display: inline-block;
+		font-size: 1.8em;
+		font-weight: 300;
+		letter-spacing: 1.5px;
+		margin: 0 5px;	
+		text-transform: uppercase;
+		vertical-align: middle;
+	}
+	.templatemo-mobile-menu a { color: white; }
+}
+@media (max-width: 480px) {
+	.templatemo-site-header h1 { font-size: 1.2em; }
+}
