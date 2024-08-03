@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('loginbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling for the dashboard */
+.dashboard-container {
+     /* Slightly transparent to show some of the background image */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius:5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height:200px;
+    text-align: center;
+    background-color: rgb(128, 128, 128,0.3);
+}
+
+/* Styling for the heading */
+.dashboard-container h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for navigation list items */
+nav ul li {
+    margin: 10px 0;
+}
+
+/* Styling for navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}

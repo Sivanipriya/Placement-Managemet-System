@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0b5; */
+    background-image: url('loginbg.jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styling for the login form */
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Add transparency to the background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    border:1px solid black;
+}
+
+/* Styling for the form headings */
+.login-container h2 {
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Styling for form labels */
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    text-align: left;
+}
+
+/* Styling for form inputs */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #07c8cbe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the button */
+.login-container input[type="submit"]:hover {
+    background-color: #0c9debe7;
+}
